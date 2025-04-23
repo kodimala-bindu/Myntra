@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        nav{
+            width: 100%;
+            height: 40px;
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            padding: 10px 20px;   
+        }
+        .footer-bindu a{
+            color: white;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+            padding: 20px;
+            
+        }
+        input {
+            padding: 10px;
+            width: 300px;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+            margin-left: 30px;
+               
+        }
+        .parent{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding-top: 100px;
+        }
+        .items{
+            width: 200px;
+            height: 300px;
+            border: 2px black solid;
+            margin-bottom: 30px;
+            background-color: white;
+        }
+        .items img{
+            width: 170px;
+            height: 190px;
+            padding-left: 15px;
+            padding-top: 10px;
+        }
+        h4{
+            text-align: center;
+            line-height: 1;   
+        }
+        p{
+            text-align: center;
+            line-height: 1.5;
+           
+        }
+        button{
+            margin-right: 35px;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .footer{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 10px;
+            
+        }
+        .footer-section{
+            width: 20%;
+        }
+        .footer-section a{
+            padding-right: 20px;
+            
+        }
+        a{
+            text-decoration: none;
+            color: #666;
+            font-size: 14px; 
+            line-height: 1.75; 
+            font-family: Arial, Helvetica, sans-serif; 
+            margin: 0 10px;
+        }
+        h3{
+            font-size: 11px;  
+            padding-left: 50px;
+            padding-top: 30px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0 10px;
+        }
+        li{
+            list-style: none;
+            padding-left: 50px;
+        }
+        .social-icons img{
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div>
+            <image src=".//myntra-removebg-preview.png" alt="myntra logo">
+        </div>
+        <div class="footer-bindu">
+            <a href="">MEN</a>
+            <a href="">WOMEN</a>
+            <a href="">KIDS</a>
+            <a href="">HOME-APPLIANCES</a>
+            <a href="">BEAUTY</a>
+            <a href="">STUDIO</a>
+        </div>
+        <div class="input">
+            <input type="text" placeholder="Search for products,brands and more" >
+        </div>
+        <div class="button">
+        <button class="profile-btn"><i class="fa-regular fa-user"></i><b>Profile</b></button>
+        <button class="wishlist-btn"><i class="fa-regular fa-heart"></i><b>Wishlist</b></button>
+        <button class="bag-btn"><i class="fa-solid fa-bag-shopping"></i><b>Bag</b></button>
+        </div>
+        </div>   
+    </nav>
+    
+    <div class="parent">
+        <div class="items">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7iDECTRDHgcwdUMmX5M295ZGm0KZEPX7EBw&s" alt="">
+            <p>Ethnic Wear</p>
+            <p><b>50-80% OFF</b></p>
+            <p>Shop Now</p>
+        </div>
+        <div class="items">
+            <img src="https://i.pinimg.com/736x/3a/f5/3d/3af53d79a53e9d4fdafc83ee84c98b83.jpg" alt="">
+            <p>Casual Wear</p>
+            <p><b>40-80% OFF</b></p>
+            <p>Shop Now</p>
+        </div>
+        <div class="items">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ19__DAf7BeaSBLupXD7yftDOs7tc2UIWwnQ&s" alt="">
+            <p>Men's Activewear</p>
+            <p><b>30-70% OFF</b></p>
+            <p>Shop Now</p>
+        </div>
+        <div class="items">
+            <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/20776028/2023/5/13/9a3fa3be-eb28-4eb9-9df8-7e47a70ebd9d1683975607908-Cultsport-Women-Black-Absolute-Fit-Sports-Tights-91316839756-4.jpg" alt="">
+            <p>Women's Activewear</p>
+            <p><b>30-70% OFF</b></p>
+            <p>Shop Now</p>
+        </div>
+        <div class="items">
+            <img src="https://assets.ajio.com/medias/sys_master/root/20240924/ZzSo/66f2eb98260f9c41e82410ed/-473Wx593H-700472986-brown-MODEL.jpg" alt="">
+            <p>Western Wear</p>
+            <p><b>40-80% OFF</b></p>
+            <p>Shop Now</p>
+        </div>
+        <div class="items">
+            <img src="https://static.nike.com/a/images/t_PDP_936_v1/f_auto,q_auto:eco/5b7803a1-68a6-449b-aa23-68da270bf825/K+NSW+CLUB+KNIT+FZ+LS+LBR.png" alt="">
+            <p>SportsWear </p>
+            <p><b>30-80% OFF</b></p>
+            <p>Shop Now</p>
+        </div>
+        <div class="items">
+            <img src="https://cdn.zivame.com/ik-seo/media/zcmsimages/configimages/ZI64PY-Reflecting%20Pond/1_medium/zivame-knit-poly-velour-loungewear-set-reflecting-pond.JPG?t=1732884124" alt="">
+            <p>Loungewear</p>
+            <p><b>30-60% OFF</b></p>
+            <p>Shop Now</p>
+        </div>
+        <div class="items">
+            <img src="https://justintime.in/cdn/shop/files/30k-50k_M_1500x.jpg?v=2665138175328639970" alt="">
+            <p>Watches</p>
+            <p><b>UPTO 80% OFF</b></p>
+            <p>Shop Now</p>
+        </div>
+        <div class="items">
+            <img src="https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/jioretailer/products/pictures/item/free/original/cLGwJd-7D-BPL-Beard-Trimmer-BBT204GK-Grooming-Kit.jpeg" alt="">
+            <p>Grooming</p>
+            <p><b>UPTO 60% OFF</b></p>
+            <p>Shop Now</p>
+        </div>
+        <div class="items">
+            <img src="https://cdn.britannica.com/35/222035-131-9FC95B31/makeup-cosmetics.jpg" alt="">
+            <p>Beauty & MakeUp</p>
+            <p><b>UPTO 60% OFF</b></p>
+            <p>Shop Now</p>
+        </div>
+        <div class="items"> 
+            <img src="https://www.bownbee.com/cdn/shop/files/website_723_735_shop_the_look_1.jpg?v=1725884297&width=2400" alt="">
+            <p>Kids Wear</p>
+            <p><b>50-70% OFF</b></p>
+            <p>Shop Now</p>
+        </div>
+        <div class="items">
+            <img src="https://admin.walkwayshoes.com/product/17-52/540/17-52-16-40-1.JPG" alt="">
+            <p>Mens Footwear</p>
+            <p><b>50-70% OFF</b></p>
+            <p>Shop Now</p>
+        </div>
+        <div class="items">
+            <img src="https://5.imimg.com/data5/IH/RS/EM/ANDROID-96574418/product-jpeg-500x500.jpg" alt="">
+            <p>Womens Footwear</p>
+            <p><b>40-80% OFF</b></p>
+            <p>Shop Now</p>
+        </div>
+        <div class="items">
+            <img src="https://assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/30022229/2024/6/22/572365a4-586c-4e4f-9e50-308394d5e3571719072919878AccessoryGiftSet1.jpg" alt="">
+            <p>Bag's,Belts & Wallets</p>
+            <p><b>40-70% OFF</b></p>
+            <p>Shop Now</p>
+        </div>
+        <div class="items">
+            <img src="https://i.etsystatic.com/19536903/r/il/fa6c57/3219450896/il_570xN.3219450896_t9p2.jpg" alt="">
+            <p>Mens EthnicWear</p>
+            <p><b>UPTO 50% OFF</b></p>
+            <p>Shop Now</p>
+        </div>
+        <div class="items">
+            <img src="https://m.media-amazon.com/images/I/61zACz-kmOL.jpg" alt="">
+            <p>Home Decor</p>
+            <p><b>40-70% OFF</b></p>
+            <p>Shop Now</p>
+        </div>
+        <div class="items">
+            <img src="https://image.made-in-china.com/2f0j00SsOkEiWhrocI/Women-Soft-PU-Leather-Handbags-Luxury-Designer-3-Layers-Shoulder-Crossbody-Bags-Ladies-Large-Capacity-Shopping-Brand-Messenger-Tote.jpg" alt="">
+            <p>Handbags</p>
+            <p><b>40-80% OFF</b></p>
+            <p>Shop Now</p>
+        </div>
+        <div class="items">
+            <img src="https://img.mensxp.com/media/content/2018/Jul/best-prime-day-deals-on-music-essentials1400-1531742932.jpg" alt="">
+            <p>Heaphones & Speakers</p>
+            <p><b>UPTO 70% OFF</b></p>
+            <p>Shop Now</p>
+        </div>
+        <div class="items">
+            <img src="https://www.voylla.com/cdn/shop/products/VMJAI44258_CS_d1898a5f-c528-42ae-8ba6-3c26e193fd82.jpg?v=1701716437" alt="">
+            <p>Jewellery</p>
+            <p><b>UPTO 80% OFF</b></p>
+            <p>Shop Now</p>
+        </div>
+        <div class="items">
+            <img src="https://blog.favrspecs.com/wp-content/uploads/2023/09/Trends_2024_3D.jpg" alt="">
+            <p>Eyewear</p>
+            <p><b>UPTO 80% OFF</b></p>
+            <p>Shop Now</p>
+        </div>
+        <div class="items">
+            <img src="https://adventureworx.in/wp-content/uploads/2024/02/zero-40-ltr-rucksack-5.jpg" alt="">
+            <p>Bags & Backpacks</p>
+            <p><b>30-80% OFF</b></p>
+            <p>Shop Now</p>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <div class="footer-section">
+        <h3>ONLINE SHOPPING</h3>
+            <li><a href="">Men</a></li>
+            <li><a href="">Women</a></li>
+            <li><a href="">Kids</a></li>
+            <li><a href="">Home & Living</a></li>
+            <li><a href="">Beauty</a></li>
+            <li><a href="">Gift Cards</a></li>
+            <li><a href="">Myntra Insider</a></li>
+        </div>
+        <div class="footer-section">
+            <h3>USEFUL LINKS</h3>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Site Map</a></li>
+                <li><a href="">Corporate Information</a></li>
+                <li><a href="">Whitehat</a></li>
+                <li><a href="">Cleartrip</a></li>
+        </div>
+        <div class="footer-section">
+            <h3>CUSTOMER POLICIES</h3>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">T&C</a></li>
+                <li><a href="">Terms Of Use</a></li>
+                <li><a href="">Track Orders</a></li>
+                <li><a href="">Shipping</a></li>
+                <li><a href="">Cancellation</a></li>
+                <li><a href="">Returns</a></li>
+                <li><a href="">Privacy policy</a></li>
+                <li><a href="">Grievance Redressal</a></li>
+        </div>
+        <div class="social-icons">
+            <h3>KEEP IN TOUCH</h3>
+                <a href=""><img src="./facebook.png" alt="Facebook"></a>
+                <a href=""><img src="./twitter.png" alt="Twitter"></a>
+                <a href=""><img src="./instagram.jpeg" alt="Instagram"></a>
+        </div>
+    </div>
+
+    
+    
+</body>
+</html>
